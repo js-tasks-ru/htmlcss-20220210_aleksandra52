@@ -1,0 +1,43 @@
+.header {
+    padding: 30px 0 0;
+    width: 100%;
+    background: red;
+    text-align: center;
+    color: #fff;
+}
+
+.nav {
+    height: 30px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.nav__link {
+    margin: 10px;
+    color: #000;
+}
+
+.main {
+    background: green;
+    padding: 50px;
+}
+
+.article {
+    background: blue;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background: violet;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}
