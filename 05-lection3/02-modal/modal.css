@@ -1,0 +1,58 @@
+@import '../../03-lection1/01-button/button.css';
+
+.button {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.modal {
+    display: none;
+    box-sizing: border-box;
+    z-index: 100;
+}
+.modal__underlay {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: var(--modal-background);
+    opacity: 0.5;
+}
+.modal__wrap {
+    position: fixed;
+    max-width: 508px;
+    width: 100%;
+    padding: 40px 40px 47px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+    border-radius: 8px;
+    padding: 30px 40px 33px;
+}
+
+.modal__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--dark-blue);
+}
+.modal__close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.modal__text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
