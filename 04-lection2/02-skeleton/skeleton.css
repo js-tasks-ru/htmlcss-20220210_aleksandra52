@@ -25,11 +25,11 @@
     background: var(--gradient);
     height: 20px;
     margin-bottom: 8px;
-    width: auto;
+    width: 100%;
 }
-.skeleton__line-1 {
-    margin-right: 263px;
+.skeleton__line_short {
+    width: 40%;
 }
-.skeleton__line-2 {
-    margin-right: 178px;
+.skeleton__line_medium {
+    width: 60%;
 }
