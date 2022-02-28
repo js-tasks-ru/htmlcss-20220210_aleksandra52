@@ -4,6 +4,7 @@
 :root {
     --white: #ffffff;
     --black: #212429;
+    --total-black: #000;
     --pink: #F784AD;
     --purple: #7048E8;
     --blue: #374FC7;
@@ -17,6 +18,8 @@
     --color-secondary-hover: #5028C6;
 
     --main-layout: #F9FAFC;
+
+    --active-link: #D84910;
 
     --error: var(--red);
     --success: var(--blue);
@@ -91,6 +94,7 @@ body {
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
+    height: 100%;
 }
 
 .card {
