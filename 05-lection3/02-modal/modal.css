@@ -1,4 +1,4 @@
-@import '../../03-lection1/01-button/button.css';
+/* @import '../../03-lection1/01-button/button.css'; */
 
 .button {
     top: 50%;
@@ -10,18 +10,15 @@
     display: none;
     box-sizing: border-box;
     z-index: 100;
-}
-.modal__underlay {
     bottom: 0;
     left: 0;
     position: fixed;
     right: 0;
     top: 0;
     background: var(--modal-background);
-    opacity: 0.5;
 }
 .modal__wrap {
-    position: fixed;
+    position: absolute;
     max-width: 508px;
     width: 100%;
     padding: 40px 40px 47px;
