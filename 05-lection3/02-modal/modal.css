@@ -1,11 +1,4 @@
-/* @import '../../03-lection1/01-button/button.css'; */
 
-.button {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
 .modal {
     display: none;
     box-sizing: border-box;
