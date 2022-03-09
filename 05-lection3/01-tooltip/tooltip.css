@@ -1,7 +1,6 @@
 .tooltip {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    position: relative;
+    display: inline-flex;
 }
 .tooltip__bubble {
     padding: 13px 21px 8px;
@@ -14,10 +13,11 @@
     text-align: center;
     color: var(--grey-2);
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    bottom: calc(100% + 8px);
+    right: 50%;
+    transform: translateX(50%);
     display: none;
+    white-space: nowrap;
 }
 
 .tooltip__bubble:after {
@@ -26,9 +26,9 @@
     content: '';
     border: 10px solid transparent;
     border-top: 10px solid var(--blue-2);
-    bottom: -25px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .tooltip__icon {
