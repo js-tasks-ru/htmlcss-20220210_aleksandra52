@@ -1,4 +1,7 @@
 @import '../fonts/fonts.css';
+@import '../../components/main/main.css';
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
@@ -18,6 +21,7 @@
     --color-primary-hover: #2342C0;
     --color-secondary-hover: #5028C6;
 
+    --main-layout: #F9FAFC;
     --modal-background: rgba(196, 196, 196, 1);
     --gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 
@@ -32,3 +36,16 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  
+
+
